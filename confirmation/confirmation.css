@@ -1,0 +1,50 @@
+.container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-areas:
+      'header'
+      'content'
+      'content';
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.bg {
+    position: fixed;
+    z-index: -1;
+    bottom: -100%;
+    right: -30%;
+    opacity: 0.5;
+}
+
+.info {
+    grid-area: content;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+p {
+    text-align: center;
+    color: gray;
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}

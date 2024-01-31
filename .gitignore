@@ -1,0 +1,6 @@
+vendor/
+credential.properties
+checkout/secrets.php
+checkout/checkout.js
+confirmation/test.php
+welcome/code.php

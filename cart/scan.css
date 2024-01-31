@@ -1,0 +1,195 @@
+.container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-areas:
+      'left header header header header header right'
+      'left main main main main main right'
+      'left weight weight footer pay pay right';
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#weightModalLabel {
+    color: black;
+    margin-left: 10px;
+}
+
+.add-cart {
+    background-color: #018397;
+    color: white;
+    border: none;
+}
+
+.gramm {
+    background-color: #4CB5C5;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+}
+
+.weightHeader {
+    justify-content: unset;
+}
+
+#test {
+    color: white;
+}
+
+#sum {
+    text-align: right;
+}
+
+#foot {
+    text-decoration: underline;
+}
+
+#price {
+    color: black;
+    font-weight: 700;
+}
+
+.left {
+    grid-area: left;
+    width: 150px;
+}
+
+.right {
+    grid-area: right;
+    width: 150px;
+}
+
+.header {
+    display: flex;
+    grid-area: header;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+
+.table {
+    display: flex;
+    grid-area: main;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.test {
+    width: 100%;
+    height: 280px;
+    overflow-y: auto;
+}
+
+  .test thead th {
+    position: sticky; /* make the table heads sticky */
+    top: 0px; /* table head will be placed from the top of the table and sticks to it */
+  }
+  .test tfoot th {
+    position: sticky; /* make the table heads sticky */
+    bottom: 0px; /* table head will be placed from the top of the table and sticks to it */
+  }
+
+#table > thead > tr > th {
+    background-color: #018397;
+}
+
+#table > tfoot > tr > th {
+    background-color: lightgray;
+}
+
+.weight {
+    grid-area: weight;
+    display: flex;
+    column-gap: 5px;
+    align-items: flex-start;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.choose {
+    display: grid;
+    grid-area: pay;
+    justify-content: end;
+    align-items: start;
+}
+
+#pay-button {
+    background-color: #F27052;
+    color: white;
+}
+
+#pay-button {
+    background-color: #ee5f3e;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid rgba(74,157,177, .2);
+    border-collapse: collapse;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: #EFF5FC;
+}
+
+tbody>tr {
+    height: 45px;
+}
+
+#eur {
+    border-right-style: hidden
+}
+
+.stepDown {
+    background-color: #F9644E;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+
+.amount {
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+}
+
+.stepUp {
+    background-color: #F9644E;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+
+.bg {
+    max-height: 150%;
+    width: 120%;
+    position: fixed;
+    z-index: -1;
+    bottom: 0%;
+    right: 0%;
+}

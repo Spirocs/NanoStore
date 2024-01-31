@@ -1,0 +1,36 @@
+/* The CSS is used for styling the template php and must be included on every page where the template is used. */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.navbar {
+    border-bottom: 2px solid #d3d3d3;
+    background-color: white;
+}
+
+.producer-name {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+#producer-logo {
+    margin-left: 20px;
+    margin-right: -5px;
+    border-radius: 10%;
+}

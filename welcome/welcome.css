@@ -1,0 +1,70 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  bottom: -100%;
+  right: -30%;
+  opacity: 0.5;
+}
+
+.text {
+  margin-bottom: 10%;
+}
+
+.welcome {
+  text-align: center;
+  color: gray;
+  font-family: 'sourcesanspro';
+  font-style: normal;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.help {
+  text-align: center;
+  color: gray;
+  font-family: 'sourcesanspro';
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
